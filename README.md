@@ -12,43 +12,7 @@ krushimitra/
 
 ---
 
-## 🚀 VSCode Setup & Run
 
-### Step 1 — Install VSCode
-Download from: https://code.visualstudio.com/
-
-### Step 2 — Install the Live Server Extension
-1. Open VSCode
-2. Press `Ctrl+Shift+X` (Extensions)
-3. Search: **Live Server**
-4. Install by **Ritwick Dey**
-
-### Step 3 — Open the Project
-1. `File → Open Folder → krushimitra/`
-2. All 3 files appear in the sidebar
-
-### Step 4 — Run
-1. Right-click `index.html` in the sidebar
-2. Select **"Open with Live Server"**
-3. Browser opens at `http://127.0.0.1:5500/index.html`
-4. Any file change auto-reloads the browser ✅
-
----
-
-## 🔑 API Key Setup
-
-The app calls the Anthropic API for enhanced analysis.
-
-1. Open `app.js`
-2. Find line: `const API_KEY = ''`
-3. Paste your API key there
-4. Save — the browser reloads automatically
-
-> Get your key at: https://console.anthropic.com/
-
-**Without API key** — app still works fully using built-in district data.
-
----
 
 ## ✅ Features
 
